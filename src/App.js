@@ -25,6 +25,7 @@ function App() {
      <Navbar />
      <Banner />
      <Mainpage />
+     <div className="part">
      <div className="location_card">
      <Card name={"✍️ Article"}
            first_line ={ " What if famous brands had regular fonts? Meet RegulaBrands! "}
@@ -33,38 +34,6 @@ function App() {
            card1man={card1man}
            Card_img={card1}
      />
-
-<div className="Location">
-          <div
-            style={{
-              borderBottom: "0.04rem solid #B8B8B8",
-              paddingBottom: "1.0rem",
-              width:"67%"
-            }}
-          >
-            <LocationOnOutlinedIcon
-              style={{ verticalAlign: "text-bottom", marginRight: ".8rem" }}
-            />
-            Noida, India
-            <EditIcon
-              style={{ verticalAlign: "text-bottom", marginLeft: "1.5rem" }}
-            />
-          </div>
-          <div style={{ paddingTop: "1rem", display: "flex" , width:"67%" }}>
-            <InfoOutlinedIcon
-              style={{ opacity: "50%", marginRight: ".9rem" }}
-            />
-            <p style={{ opacity: "50%", width: "22rem", fontSize: "12px" }}>
-              Your location will help us serve better and extend a personalised
-              experience.
-            </p>
-          </div>
-        </div>
-
-
-     </div>
-     
-
 
       <Card name={"🔬️ Education"}
            first_line ={ "Tax Benefits for Investment under National Pension Scheme launched by Government"}
@@ -92,6 +61,36 @@ function App() {
            btn={apply_btn}
            btn_mbl={apply_mbl}
      />
+      </div>
+   
+     
+<div className="Location">
+          <div
+            style={{
+              borderBottom: "0.04rem solid #B8B8B8",
+              paddingBottom: "1.0rem",
+              width:"67%"
+            }}
+          >
+            <LocationOnOutlinedIcon
+              style={{ verticalAlign: "text-bottom", marginRight: ".8rem" }}
+            />
+            Noida, India
+            <EditIcon
+              style={{ verticalAlign: "text-bottom", marginLeft: "1.5rem" }}
+            />
+          </div>
+          <div style={{ paddingTop: "1rem", display: "flex" , width:"67%" }}>
+            <InfoOutlinedIcon
+              style={{ opacity: "50%", marginRight: ".9rem" }}
+            />
+            <p style={{ opacity: "50%", width: "22rem", fontSize: "12px" }}>
+              Your location will help us serve better and extend a personalised
+              experience.
+            </p>
+          </div>
+        </div>
+        </div>
     </div>
   );
 }

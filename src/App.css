@@ -152,6 +152,7 @@ line-height: 23px;
 
 .titles{
     margin: 2.93rem 12.5rem;
+    margin-left: 11%;
     
 }
 .titles_a{
@@ -203,8 +204,8 @@ line-height: 23px;
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    margin-left: 21%;
-    width: 71%;
+    margin-left: 13%;
+    width: 82%;
     position: relative;
     top: -1.5rem;
 
@@ -241,14 +242,14 @@ line-height: 23px;
   }
   /* card */
   .card {
-      width: 51%;
+      width: 75%;
       height: 100%;
       background: #FFFFFF;
 border: 1px solid #E0E0E0;
 border-radius: 4px;
 display: flex;
 flex-direction: column;
-margin-left: 16%;
+margin-left: 19%;
 margin-top: 1rem;
 
   }
@@ -353,6 +354,7 @@ color: #000000;
 .location_card{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 .mid{
     display: flex;
@@ -376,6 +378,9 @@ color: #000000;
    }
    .btn_mbl{
     display: none;
+}
+.part{
+    display: flex;
 }
   
 
